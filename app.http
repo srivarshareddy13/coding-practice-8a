@@ -1,0 +1,21 @@
+
+Send Request 
+Get https://localhost:3000/todos/ 
+
+Send Request
+Get https//localhost:3000/todos/:todoId/  
+
+Send Request
+Post https://localhost:3000/todos/
+    {
+    "id": 10,
+    "todo": "Finalize event theme",
+    "priority": "LOW",
+    "status": "TO DO"
+    }
+
+Send Request 
+Put https://localhost:3000/todos/:todoId/
+
+Send Request 
+Delete https://localhost:3000/todos/:todoId/
